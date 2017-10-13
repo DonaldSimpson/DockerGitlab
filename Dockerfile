@@ -1,5 +1,4 @@
-FROM ubuntu:14.04
-MAINTAINER Sytse Sijbrandij
+FROM ubuntu:17.04
 
 # Install required packages
 RUN apt-get update -q \
